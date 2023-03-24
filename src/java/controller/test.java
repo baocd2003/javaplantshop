@@ -6,24 +6,33 @@
 package controller;
 
 import dao.AccountDAO;
+import dao.OrderDAO;
 import dto.Account;
+import dto.Order;
+import java.util.ArrayList;
 
 /**
  *
  * @author Admin
  */
 public class test {
+            
     public static void main(String[] args) throws Exception{
-     Account acc = AccountDAO.getAccount("test@gmail.com","test");
-            if( acc!=null){
-                if(acc.getRole() == 1){
-                    System.out.println("i am admin");
-                }else{
-                    System.out.print("i am user");
+        ArrayList<Order> ord = OrderDAO.getOrders("test@gmail.com");
+            ArrayList<Order> canceledList = new ArrayList<>();
+            if (ord == null || ord.isEmpty()) {
+                canceledList = null;
+            } else {
+                for (Order order : ord) {
+                    if (order.getStatus() == 3) {
+                        canceledList.add(order);
+                    }
                 }
-            }else{
-                System.out.print("login fail");
             }
+            for(Order o :canceledList){
+                System.out.println(o.getOrderID());
+            }
+    
 //System.out.println("ndskn");
     } 
             

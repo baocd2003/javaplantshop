@@ -43,18 +43,27 @@ public class loginServlet extends HttpServlet {
             String password = request.getParameter("txtpassword");
             Account acc = AccountDAO.getAccount(email,password);
             if(acc!=null){
-                if(acc.getRole() == 1){
-                    response.sendRedirect("welcome.html");
-                }else{
+                if (acc.getStatus() == 1) {
                     HttpSession session = request.getSession(true);
+                if(acc.getRole() == 1){
+                    session.setAttribute("admin", acc);
+                    response.sendRedirect("adminPage.jsp");
+                }else{ 
                     if(session!=null){
                         session.setAttribute("name", acc.getFullname());
                         session.setAttribute("email", acc.getEmail());
+                        session.setAttribute("user", acc);                    
                         response.sendRedirect("personalPage.jsp");
                     }
                 }
+                }else{
+                    request.setAttribute("warning", "Blocked account, contact admin for detail");
+                    request.getRequestDispatcher("login.jsp").forward(request, response);
+                
+                }
             }else{
-                out.print("login fail");
+                    request.setAttribute("warning", "Incorrect email or password");
+                    request.getRequestDispatcher("login.jsp").forward(request, response);
             }
         }
     }

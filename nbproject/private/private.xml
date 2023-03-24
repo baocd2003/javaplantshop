@@ -4,19 +4,71 @@
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
             <file>file:/C:/Users/Admin/Documents/NetBeansProjects/PlantShop/src/java/dao/PlantDAO.java</file>
-            <file>file:/C:/Users/Admin/Documents/NetBeansProjects/PlantShop/web/login.html</file>
+            <file>file:/C:/Users/Admin/Documents/NetBeansProjects/PlantShop/web/css/completed.css</file>
+            <file>file:/C:/Users/Admin/Documents/NetBeansProjects/PlantShop/web/css/header.css</file>
             <file>file:/C:/Users/Admin/Documents/NetBeansProjects/PlantShop/web/registration.html</file>
-            <file>file:/C:/Users/Admin/Documents/NetBeansProjects/PlantShop/src/java/controller/searchServlet.java</file>
+            <file>file:/C:/Users/Admin/Documents/NetBeansProjects/PlantShop/web/addPlantPage.jsp</file>
+            <file>file:/C:/Users/Admin/Documents/NetBeansProjects/PlantShop/src/java/dao/CategoryDAO.java</file>
+            <file>file:/C:/Users/Admin/Documents/NetBeansProjects/PlantShop/web/manageAccount.jsp</file>
+            <file>file:/C:/Users/Admin/Documents/NetBeansProjects/PlantShop/web/registration.jsp</file>
+            <file>file:/C:/Users/Admin/Documents/NetBeansProjects/PlantShop/src/java/controller/cancelOrderServlet.java</file>
+            <file>file:/C:/Users/Admin/Documents/NetBeansProjects/PlantShop/web/css/personal.css</file>
+            <file>file:/C:/Users/Admin/Documents/NetBeansProjects/PlantShop/src/java/controller/changeCateNameServlet.java</file>
+            <file>file:/C:/Users/Admin/Documents/NetBeansProjects/PlantShop/src/java/controller/deleteCartServlet.java</file>
+            <file>file:/C:/Users/Admin/Documents/NetBeansProjects/PlantShop/src/java/controller/changeProfileServlet.java</file>
+            <file>file:/C:/Users/Admin/Documents/NetBeansProjects/PlantShop/web/canceled.jsp</file>
+            <file>file:/C:/Users/Admin/Documents/NetBeansProjects/PlantShop/src/java/controller/viewCartServlet.java</file>
+            <file>file:/C:/Users/Admin/Documents/NetBeansProjects/PlantShop/src/java/controller/addToCartServlet.java</file>
+            <file>file:/C:/Users/Admin/Documents/NetBeansProjects/PlantShop/src/java/controller/getProcessingOrder.java</file>
+            <file>file:/C:/Users/Admin/Documents/NetBeansProjects/PlantShop/src/java/controller/searchOrderByDateServlet.java</file>
+            <file>file:/C:/Users/Admin/Documents/NetBeansProjects/PlantShop/web/css/login.css</file>
+            <file>file:/C:/Users/Admin/Documents/NetBeansProjects/PlantShop/web/header_loginedUser.jsp</file>
+            <file>file:/C:/Users/Admin/Documents/NetBeansProjects/PlantShop/web/editCateName.jsp</file>
+            <file>file:/C:/Users/Admin/Documents/NetBeansProjects/PlantShop/web/manageCategories.jsp</file>
+            <file>file:/C:/Users/Admin/Documents/NetBeansProjects/PlantShop/web/viewPlant.jsp</file>
+            <file>file:/C:/Users/Admin/Documents/NetBeansProjects/PlantShop/src/java/controller/saveOrderServlet.java</file>
+            <file>file:/C:/Users/Admin/Documents/NetBeansProjects/PlantShop/src/java/controller/manageOrderServlet.java</file>
+            <file>file:/C:/Users/Admin/Documents/NetBeansProjects/PlantShop/src/java/controller/changeStatusAccServlet.java</file>
+            <file>file:/C:/Users/Admin/Documents/NetBeansProjects/PlantShop/web/login.html</file>
+            <file>file:/C:/Users/Admin/Documents/NetBeansProjects/PlantShop/web/css/footer.css</file>
+            <file>file:/C:/Users/Admin/Documents/NetBeansProjects/PlantShop/src/java/controller/updatePlantServlet.java</file>
+            <file>file:/C:/Users/Admin/Documents/NetBeansProjects/PlantShop/src/java/controller/addNewCateServlet.java</file>
+            <file>file:/C:/Users/Admin/Documents/NetBeansProjects/PlantShop/src/java/dto/Plant.java</file>
             <file>file:/C:/Users/Admin/Documents/NetBeansProjects/PlantShop/web/index.jsp</file>
             <file>file:/C:/Users/Admin/Documents/NetBeansProjects/PlantShop/src/java/controller/mainController.java</file>
-            <file>file:/C:/Users/Admin/Documents/NetBeansProjects/PlantShop/web/header.jsp</file>
+            <file>file:/C:/Users/Admin/Documents/NetBeansProjects/PlantShop/src/java/controller/updateCartServlet.java</file>
+            <file>file:/C:/Users/Admin/Documents/NetBeansProjects/PlantShop/src/java/controller/getAllOrderServlet.java</file>
             <file>file:/C:/Users/Admin/Documents/NetBeansProjects/PlantShop/src/java/dao/AccountDAO.java</file>
             <file>file:/C:/Users/Admin/Documents/NetBeansProjects/PlantShop/web/index.html</file>
-            <file>file:/C:/Users/Admin/Documents/NetBeansProjects/PlantShop/web/WEB-INF/web.xml</file>
+            <file>file:/C:/Users/Admin/Documents/NetBeansProjects/PlantShop/web/css/headerUser.css</file>
             <file>file:/C:/Users/Admin/Documents/NetBeansProjects/PlantShop/src/java/controller/loginServlet.java</file>
-            <file>file:/C:/Users/Admin/Documents/NetBeansProjects/PlantShop/web/css/mycss.css</file>
+            <file>file:/C:/Users/Admin/Documents/NetBeansProjects/PlantShop/src/java/controller/manageAccountServlet.java</file>
+            <file>file:/C:/Users/Admin/Documents/NetBeansProjects/PlantShop/src/java/controller/manageCategoryServlet.java</file>
+            <file>file:/C:/Users/Admin/Documents/NetBeansProjects/PlantShop/web/orderDetail.jsp</file>
             <file>file:/C:/Users/Admin/Documents/NetBeansProjects/PlantShop/web/images/image5.jpg</file>
-            <file>file:/C:/Users/Admin/Documents/NetBeansProjects/PlantShop/web/registration.jsp</file>
+            <file>file:/C:/Users/Admin/Documents/NetBeansProjects/PlantShop/src/java/dto/Order.java</file>
+            <file>file:/C:/Users/Admin/Documents/NetBeansProjects/PlantShop/web/login.jsp</file>
+            <file>file:/C:/Users/Admin/Documents/NetBeansProjects/PlantShop/src/java/controller/completeOrderServlet.java</file>
+            <file>file:/C:/Users/Admin/Documents/NetBeansProjects/PlantShop/web/processing.jsp</file>
+            <file>file:/C:/Users/Admin/Documents/NetBeansProjects/PlantShop/web/viewCart.jsp</file>
+            <file>file:/C:/Users/Admin/Documents/NetBeansProjects/PlantShop/src/java/dao/OrderDAO.java</file>
+            <file>file:/C:/Users/Admin/Documents/NetBeansProjects/PlantShop/src/java/controller/registerServlet.java</file>
+            <file>file:/C:/Users/Admin/Documents/NetBeansProjects/PlantShop/web/managePlants.jsp</file>
+            <file>file:/C:/Users/Admin/Documents/NetBeansProjects/PlantShop/web/completed.jsp</file>
+            <file>file:/C:/Users/Admin/Documents/NetBeansProjects/PlantShop/src/java/dto/Account.java</file>
+            <file>file:/C:/Users/Admin/Documents/NetBeansProjects/PlantShop/src/java/controller/searchServlet.java</file>
+            <file>file:/C:/Users/Admin/Documents/NetBeansProjects/PlantShop/web/footer.jsp</file>
+            <file>file:/C:/Users/Admin/Documents/NetBeansProjects/PlantShop/src/java/controller/searchOrderByIDServlet.java</file>
+            <file>file:/C:/Users/Admin/Documents/NetBeansProjects/PlantShop/web/header.jsp</file>
+            <file>file:/C:/Users/Admin/Documents/NetBeansProjects/PlantShop/web/changeProfile.jsp</file>
+            <file>file:/C:/Users/Admin/Documents/NetBeansProjects/PlantShop/src/java/controller/addNewPlantServlet.java</file>
+            <file>file:/C:/Users/Admin/Documents/NetBeansProjects/PlantShop/web/personalPage.jsp</file>
+            <file>file:/C:/Users/Admin/Documents/NetBeansProjects/PlantShop/web/css/mycss.css</file>
+            <file>file:/C:/Users/Admin/Documents/NetBeansProjects/PlantShop/web/css/admin.css</file>
+            <file>file:/C:/Users/Admin/Documents/NetBeansProjects/PlantShop/web/manageOrders.jsp</file>
+            <file>file:/C:/Users/Admin/Documents/NetBeansProjects/PlantShop/web/adminPage.jsp</file>
+            <file>file:/C:/Users/Admin/Documents/NetBeansProjects/PlantShop/web/updatePlantPage.jsp</file>
+            <file>file:/C:/Users/Admin/Documents/NetBeansProjects/PlantShop/src/java/controller/viewPlantServlet.java</file>
         </group>
     </open-files>
 </project-private>

@@ -1,0 +1,73 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Mar 16, 2023, 8:45:43 PM
+    Author     : Admin
+*/
+*{
+    padding:0px;
+    margin:0px;
+}
+
+body{
+    background-color:#fcf9f3;
+    font-family:'Poppins', sans-serif;
+    
+}
+
+.regis{
+    min-height: calc(100vh - 150px);
+}
+
+.regis-form{
+   display:flex;
+   flex-direction: column;
+   margin-top:50px;
+   margin-left:150px;
+}
+
+.regis-form input{
+     width:450px;
+    background-color: #fff;
+    border: 2px solid #edebe6;
+    font-family:'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    min-height: 50px;
+    outline: none;
+    padding: 10px;
+    transition: border .3s cubic-bezier(.4,0,.2,1) 0ms;
+    margin-bottom: 15px;
+}
+
+.regis-form h1{
+    font-size:55px;
+    margin-bottom: 15px;
+    font-family: 'Chakra Petch', sans-serif;
+}
+
+.regis-form .log{
+        width:150px;
+    background: #224229;
+    border: 1px solid #224229;
+    border-radius: 26px;
+    color: #fcf9f3;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 14px;
+    margin: 5px;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none!important;
+    transition: .2s;
+    font-size:15px;
+}
+
+.regis-form .log:hover{
+    margin-top: 15px;
+    color:#224229;
+    background: #fcf9f3;
+}

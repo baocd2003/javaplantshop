@@ -41,8 +41,12 @@ public class registerServlet extends HttpServlet {
            String phone = request.getParameter("txtphone");
            int status = 1;
            int role = 0;
+           if (AccountDAO.checkEmailAccount(email)) {
+                    request.setAttribute("error", "This email already exists");
+                    request.getRequestDispatcher("registration.jsp").forward(request, response);
+                }
            if(AccountDAO.insertAccount(email, password, fullName, phone, status, role)){
-               response.sendRedirect("index.html");
+               response.sendRedirect("login.jsp");
            }
         }
     }

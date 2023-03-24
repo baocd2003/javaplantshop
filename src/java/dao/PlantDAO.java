@@ -6,6 +6,7 @@
 package dao;
 
 import dto.Plant;
+import java.awt.SystemColor;
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
@@ -206,6 +207,10 @@ public class PlantDAO {
             cn.close();
         }
         return imgList;
+    }
+
+    public static ArrayList<Plant> getSearchPlant(SystemColor info) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
 
 }

@@ -4,7 +4,71 @@ To change this template file, choose Tools | Templates
 and open the template in the editor.
 */
 /* 
-    Created on : Mar 4, 2023, 9:27:54 AM
+    Created on : Mar 11, 2023, 10:20:47 AM
     Author     : Admin
 */
+*{
+    padding:0px;
+    margin:0px;
+}
 
+header{
+    background: #224229;
+    color: #fcf9f3;
+    font-weight: 400;
+    padding: 4px;
+    position: relative;
+    text-align: center;
+    transform: translateZ(0);
+    height:110px;
+    overflow: hidden;
+    font-family:'Poppins', sans-serif;
+}
+
+header a{
+    color: #fcf9f3;
+    text-decoration: none;
+    transition: 1s;
+    margin-right:100px;
+}
+header a:hover{
+    border-bottom: 1px solid #fcf9f3;    
+}
+.log-option{
+   font-size:18px; 
+   display: inline-block;
+   margin-bottom: 12px;
+}
+.seacrh-inp{
+    width:650px;
+    height:30px;
+    border-radius: 26px;
+    padding: 0 20px;
+}
+.search-form{
+    width:100px;
+    padding:5px;
+    border: 1px solid #224229;
+    border-radius: 26px;
+    cursor: pointer;
+    background-color:#fcf9f3;
+}
+
+.option{
+    display:flex;
+    justify-content: center;
+    margin-left: 270px;
+}
+
+.option .log-option{
+    align-items: center;
+}
+
+.nav{
+    display:flex;
+    justify-content: space-evenly;
+    margin:6px 0 ;
+}
+.icon{
+    display:flex;
+}

@@ -1,0 +1,65 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Mar 17, 2023, 4:30:51 PM
+    Author     : Admin
+*/
+*{
+    padding:0px;
+    margin: 0px;
+}
+
+.nav-header{
+    display:flex;
+    background-color:#224229;
+    font-family:'Poppins', sans-serif;
+    flex-wrap: wrap;
+    justify-content: center;
+    height:180px;    
+}
+.nav-header li{
+    list-style-type: none;
+    margin:15px 30px;
+    height:30px;
+}
+.nav-header a{
+    color:#fcf9f3;
+    text-decoration: none;
+    
+}
+#menu {
+    position:relative;
+
+}
+#down{
+    position: absolute;
+    z-index:10000;
+    top: 30px;
+    left: 455px;
+    display:none;
+/*    transition:all ease 0.6s;*/
+}
+#down li{
+    margin-bottom:-15px;
+}
+
+.date-form td{
+    color:#fcf9f3;
+}
+
+.btn{
+    margin-top:20px;
+    width:120px;
+    height:40px;
+    border-radius: 26px;
+    background:#fcf9f3;
+    border:1px solid black;
+    cursor:pointer;
+}
+
+.nav-header li a:hover{
+    border-bottom: 1px solid #fcf9f3;
+}

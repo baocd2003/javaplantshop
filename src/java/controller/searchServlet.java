@@ -43,30 +43,11 @@ public class searchServlet extends HttpServlet {
             String keyword = request.getParameter("txtsearch");
             String keysearch = request.getParameter("keysearch");
             ArrayList<Plant> list = PlantDAO.getPlants(keyword, keysearch);
-            if(list !=null && !list.isEmpty()){
-                out.print("<!DOCTYPE html>");
-                out.print("<html>");
-                out.print("<head>");
-                out.print("<title> Search Servlet></title>");
-                out.print("<link rel='stylesheet' href='css/mycss.css' type='text/css' ");
-                out.print("</head>");
-                out.print("<body><section>");
-                ServletContext context = getServletContext();
-                String tmp = context.getInitParameter("countryName");
-                out.print("<table class='producttable'>");
-                out.print("<tr><td>product id</td><td>product name></td><td>price</td><td>detail</td><td>action</td>");
-                for(Plant i:list){
-                    out.println("<tr>");
-                    out.println("<td>"+ i .getId() + "</td>");
-                    out.println("<td>" + i.getName() + "</td>");
-                    out.println("<td>" + i.getPrice() + "</td>");
-                    out.println("<td><img src='" +i.getImgpath() + "'></td>");
-                    out.println("</tr>");
-                }
-                out.print("</table></section>");
-                out.print("</body>");
-            }else{
-                out.print("hfinfd");
+            if (list != null && !list.isEmpty()) {
+                request.setAttribute("searchlist", list);
+                request.getRequestDispatcher("index.jsp").forward(request, response);
+            } else {
+                request.getRequestDispatcher("index.jsp").forward(request, response);
             }
             
 
